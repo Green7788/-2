@@ -10,8 +10,4 @@ print(2*(2+2))
 print(2*2+2 == 2*(2+2))
 
 #"4th program"
-print(str("123.456"))
-print(type(int(123.456)))
-print(int(123.456*10))
-print(1234%10)
-
+print((int(float('123.456')*10))%10)
